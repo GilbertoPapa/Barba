@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.barba.CadastroBarbeariaActivity"
+    tools:showIn="@layout/activity_cadastro_barbearia">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="8dp"
+        android:layout_height="17dp"
+        android:text="a"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="8dp"
+        android:layout_height="17dp"
+        android:text="a"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário Tarde"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/edtNomeBarbearia"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nome Barbearia"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edtTelefoneBarbearia"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:hint="Telefone"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <EditText
+        android:id="@+id/edtEnderecoBarbearia"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Endereço"
+        tools:layout_editor_absoluteY="120dp"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <EditText
+        android:id="@+id/edtTempAtendimento"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Tempo de Atendimento"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/edtMaxCliente"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Clientes por Dia"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Descrição"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/btnAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário Manhã"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_time"
+        android:onClick="showTimePickerDialog"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <Button
+        android:id="@+id/btnBarbeiros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbeiros"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+</android.support.constraint.ConstraintLayout>

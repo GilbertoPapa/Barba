@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.barba.fragments.CadastroBarbeiroFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/edtNomeBarbeiro"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="94dp"
+            android:ems="10"
+            android:hint="Nome Barbeiro"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEmailBarbeiro"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/edtNomeBarbeiro"
+            android:layout_below="@+id/edtNomeBarbeiro"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtTelefoneBarbeiro"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/edtEmailBarbeiro"
+            android:layout_below="@+id/edtEmailBarbeiro"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="phone" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBarba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButtonCabelo"
+            android:layout_alignBottom="@+id/radioButtonCabelo"
+            android:layout_alignStart="@+id/edtTelefoneBarbeiro"
+            android:layout_marginStart="63dp"
+            android:text="Barba" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCabelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="Cabelo"
+            android:layout_below="@+id/textView5"
+            android:layout_toEndOf="@+id/radioButtonBarba"
+            android:layout_marginStart="25dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/radioButtonBarba"
+            android:layout_below="@+id/edtTelefoneBarbeiro"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="28dp"
+            android:text="Serviço" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

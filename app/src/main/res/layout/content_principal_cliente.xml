@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.barba.PrincipalClienteActivity"
+    tools:showIn="@layout/activity_principal_cliente">
+
+    <Button
+        android:id="@+id/btnReturnPesq"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteY="388dp"
+        tools:layout_editor_absoluteX="313dp" />
+
+    <Button
+        android:id="@+id/btnProdCli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produtos"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/btnHorCli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horários"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+</android.support.constraint.ConstraintLayout>
